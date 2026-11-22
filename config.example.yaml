@@ -1,0 +1,284 @@
+{
+  "onvif": [
+    {
+      "mac": "02:00:00:00:01:01",
+      "ports": {
+        "server": 8081,
+        "rtsp": 8554
+      },
+      "name": "NightOwl Camera 1",
+      "uuid": "8a0875c8-dca9-50f9-a6a0-f7eea6e7bd15",
+      "highQuality": {
+        "rtsp": "/camera1",
+        "width": 1920,
+        "height": 1080,
+        "framerate": 8,
+        "bitrate": 2500,
+        "quality": 4
+      },
+      "lowQuality": {
+        "rtsp": "/camera1-low",
+        "width": 640,
+        "height": 360,
+        "framerate": 8,
+        "bitrate": 400,
+        "quality": 1
+      },
+      "snapshotFile": "runtime/camera1.jpg",
+      "target": {
+        "hostname": "127.0.0.1",
+        "ports": {
+          "rtsp": 8555
+        }
+      },
+      "motion": {
+        "channel": 1,
+        "stateFile": "runtime/motion-camera1.json",
+        "pixelThreshold": 24,
+        "minChangedPercent": 0.4,
+        "holdSeconds": 8,
+        "warmupSeconds": 10
+      }
+    },
+    {
+      "mac": "02:00:00:00:01:02",
+      "ports": {
+        "server": 8081,
+        "rtsp": 8554
+      },
+      "name": "NightOwl Camera 2",
+      "uuid": "2da6c8f5-20d5-5323-80af-867e7e5b49a4",
+      "highQuality": {
+        "rtsp": "/camera2",
+        "width": 1920,
+        "height": 1080,
+        "framerate": 8,
+        "bitrate": 2500,
+        "quality": 4
+      },
+      "lowQuality": {
+        "rtsp": "/camera2-low",
+        "width": 640,
+        "height": 360,
+        "framerate": 8,
+        "bitrate": 400,
+        "quality": 1
+      },
+      "snapshotFile": "runtime/camera2.jpg",
+      "target": {
+        "hostname": "127.0.0.1",
+        "ports": {
+          "rtsp": 8555
+        }
+      },
+      "motion": {
+        "channel": 2,
+        "stateFile": "runtime/motion-camera2.json",
+        "pixelThreshold": 24,
+        "minChangedPercent": 0.4,
+        "holdSeconds": 8,
+        "warmupSeconds": 10
+      }
+    },
+    {
+      "mac": "02:00:00:00:01:03",
+      "ports": {
+        "server": 8081,
+        "rtsp": 8554
+      },
+      "name": "NightOwl Camera 3",
+      "uuid": "a3c40d72-598c-5b12-aaa1-cf96e769aaf4",
+      "highQuality": {
+        "rtsp": "/camera3",
+        "width": 1920,
+        "height": 1080,
+        "framerate": 8,
+        "bitrate": 2500,
+        "quality": 4
+      },
+      "lowQuality": {
+        "rtsp": "/camera3-low",
+        "width": 640,
+        "height": 360,
+        "framerate": 8,
+        "bitrate": 400,
+        "quality": 1
+      },
+      "snapshotFile": "runtime/camera3.jpg",
+      "target": {
+        "hostname": "127.0.0.1",
+        "ports": {
+          "rtsp": 8555
+        }
+      },
+      "motion": {
+        "channel": 3,
+        "stateFile": "runtime/motion-camera3.json",
+        "pixelThreshold": 24,
+        "minChangedPercent": 0.4,
+        "holdSeconds": 8,
+        "warmupSeconds": 10
+      }
+    },
+    {
+      "mac": "02:00:00:00:01:04",
+      "ports": {
+        "server": 8081,
+        "rtsp": 8554
+      },
+      "name": "NightOwl Camera 4",
+      "uuid": "9f8624cd-da5b-570e-bbde-e99f2a1b8b0d",
+      "highQuality": {
+        "rtsp": "/camera4",
+        "width": 1920,
+        "height": 1080,
+        "framerate": 8,
+        "bitrate": 2500,
+        "quality": 4
+      },
+      "lowQuality": {
+        "rtsp": "/camera4-low",
+        "width": 640,
+        "height": 360,
+        "framerate": 8,
+        "bitrate": 400,
+        "quality": 1
+      },
+      "snapshotFile": "runtime/camera4.jpg",
+      "target": {
+        "hostname": "127.0.0.1",
+        "ports": {
+          "rtsp": 8555
+        }
+      },
+      "motion": {
+        "channel": 4,
+        "stateFile": "runtime/motion-camera4.json",
+        "pixelThreshold": 24,
+        "minChangedPercent": 0.4,
+        "holdSeconds": 8,
+        "warmupSeconds": 10
+      }
+    },
+    {
+      "mac": "02:00:00:00:01:05",
+      "ports": {
+        "server": 8081,
+        "rtsp": 8554
+      },
+      "name": "NightOwl Camera 5",
+      "uuid": "11f0ba30-7dbc-5085-a8a8-4d3927b88edb",
+      "highQuality": {
+        "rtsp": "/camera5",
+        "width": 1920,
+        "height": 1080,
+        "framerate": 8,
+        "bitrate": 2500,
+        "quality": 4
+      },
+      "lowQuality": {
+        "rtsp": "/camera5-low",
+        "width": 640,
+        "height": 360,
+        "framerate": 8,
+        "bitrate": 400,
+        "quality": 1
+      },
+      "snapshotFile": "runtime/camera5.jpg",
+      "target": {
+        "hostname": "127.0.0.1",
+        "ports": {
+          "rtsp": 8555
+        }
+      },
+      "motion": {
+        "channel": 5,
+        "stateFile": "runtime/motion-camera5.json",
+        "pixelThreshold": 24,
+        "minChangedPercent": 0.4,
+        "holdSeconds": 8,
+        "warmupSeconds": 10
+      }
+    },
+    {
+      "mac": "02:00:00:00:01:06",
+      "ports": {
+        "server": 8081,
+        "rtsp": 8554
+      },
+      "name": "NightOwl Camera 6",
+      "uuid": "656b2de2-56fd-54f8-b646-6e798287b146",
+      "highQuality": {
+        "rtsp": "/camera6",
+        "width": 1920,
+        "height": 1080,
+        "framerate": 8,
+        "bitrate": 2500,
+        "quality": 4
+      },
+      "lowQuality": {
+        "rtsp": "/camera6-low",
+        "width": 640,
+        "height": 360,
+        "framerate": 8,
+        "bitrate": 400,
+        "quality": 1
+      },
+      "snapshotFile": "runtime/camera6.jpg",
+      "target": {
+        "hostname": "127.0.0.1",
+        "ports": {
+          "rtsp": 8555
+        }
+      },
+      "motion": {
+        "channel": 6,
+        "stateFile": "runtime/motion-camera6.json",
+        "pixelThreshold": 24,
+        "minChangedPercent": 0.4,
+        "holdSeconds": 8,
+        "warmupSeconds": 10
+      }
+    },
+    {
+      "mac": "02:00:00:00:01:07",
+      "ports": {
+        "server": 8081,
+        "rtsp": 8554
+      },
+      "name": "NightOwl Camera 7",
+      "uuid": "c5f85f98-3a4a-5cdd-85ad-71c7d0b6841d",
+      "highQuality": {
+        "rtsp": "/camera7",
+        "width": 1920,
+        "height": 1080,
+        "framerate": 8,
+        "bitrate": 2500,
+        "quality": 4
+      },
+      "lowQuality": {
+        "rtsp": "/camera7-low",
+        "width": 640,
+        "height": 360,
+        "framerate": 8,
+        "bitrate": 400,
+        "quality": 1
+      },
+      "snapshotFile": "runtime/camera7.jpg",
+      "target": {
+        "hostname": "127.0.0.1",
+        "ports": {
+          "rtsp": 8555
+        }
+      },
+      "motion": {
+        "channel": 7,
+        "stateFile": "runtime/motion-camera7.json",
+        "pixelThreshold": 24,
+        "minChangedPercent": 0.4,
+        "holdSeconds": 8,
+        "warmupSeconds": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=NightOwl camera virtual interfaces and source routing
+After=systemd-networkd.service network-online.target
+Requires=systemd-networkd.service
+Wants=network-online.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+EnvironmentFile=/etc/nightowl-onvif.env
+ExecStart=/usr/bin/python3 /usr/local/libexec/nightowl-onvif-network.py
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+[Install]
+WantedBy=multi-user.target

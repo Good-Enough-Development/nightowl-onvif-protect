@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.onvif.org/ver10/schema/common.xsd",
+    "file": "0649bd35de91e559.xsd",
+    "download_sha256": "d945394fe823febcd873ed8444ccfd73f3b5234d6dfbf0e151a33f5e611b5077"
+  },
+  {
+    "url": "https://www.w3.org/2005/05/xmlmime",
+    "file": "f7a544302a0ad681",
+    "download_sha256": "330ab79ecdd3a8628f12ef4cbe34351e448f9b9231bacad339881ce1a61237a2"
+  },
+  {
+    "url": "https://www.w3.org/2001/xml.xsd",
+    "file": "fa6d2058527da098.xsd",
+    "download_sha256": "61960fb3131e38022caad5360e2f33a3382578ab3c80cd58bd74320ede61b20c"
+  },
+  {
+    "url": "https://www.w3.org/2003/05/soap-envelope",
+    "file": "71bc1315b8088bcf",
+    "download_sha256": "3ae8caa9a74e83528cc0e1a59fc12784435e8e0086e890d0e1b04d881c079bec"
+  },
+  {
+    "url": "https://www.w3.org/2005/08/addressing/ws-addr.xsd",
+    "file": "3da506b51d83d59c.xsd",
+    "download_sha256": "af806cc9af2514e9b0b07efe4e4dc42a32dad8ac08473dc025136207779d5ee9"
+  },
+  {
+    "url": "https://docs.oasis-open.org/wsrf/bf-2.xsd",
+    "file": "19a7ec29c1d4908a.xsd",
+    "download_sha256": "7863ccf5b21105c374a405968266fa18ecd0ebe0f7b9b19cd9378656229ff468"
+  },
+  {
+    "url": "https://docs.oasis-open.org/wsn/t-1.xsd",
+    "file": "68457875b276bc1d.xsd",
+    "download_sha256": "ad5db0432a3885d1c8a574ba6b4058193af29bc971232c4bb6b31f8295fe3329"
+  },
+  {
+    "url": "https://docs.oasis-open.org/wsn/b-2.xsd",
+    "file": "4703af0ab8198524.xsd",
+    "download_sha256": "26f0c7aa9a3719412e2e3275bc80320edb4b2dc9783bf2bb08c6378f4ca681fe"
+  },
+  {
+    "url": "https://www.w3.org/2004/08/xop/include",
+    "file": "eb291e501bbbc7b5",
+    "download_sha256": "dff9100efce4afb21de0cf673fb7fad103672a169862ab0f12e34c312b20e60d"
+  },
+  {
+    "url": "https://www.onvif.org/ver10/schema/onvif.xsd",
+    "file": "0b8275e66342e302.xsd",
+    "download_sha256": "1de6e9dd31a18a6773b611c4f7eaa0528f219098ddfc883b380802aa9a7ff647"
+  },
+  {
+    "url": "https://www.onvif.org/ver10/device/wsdl/devicemgmt.wsdl",
+    "file": "ee901f8954955109.wsdl",
+    "download_sha256": "c66773e3da37e493f370b1ed31906a8b3eee980ccd23735245ea2dc45b87eecf"
+  },
+  {
+    "url": "https://www.onvif.org/ver10/media/wsdl/media.wsdl",
+    "file": "d9936438a8c0e9ac.wsdl",
+    "download_sha256": "bb4596f47ff0f907b8113fd2c86f649faa098df0e0df9f1c5f4de34f592de1eb"
+  }
+]

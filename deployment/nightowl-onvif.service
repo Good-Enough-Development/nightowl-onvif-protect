@@ -1,0 +1,21 @@
+[Unit]
+Description=Seven NightOwl virtual ONVIF cameras for UniFi Protect
+After=nightowl-onvif-network.service nightowl-mediamtx.service
+Requires=nightowl-onvif-network.service nightowl-mediamtx.service
+StartLimitIntervalSec=0
+[Service]
+User=nightowl
+Group=nightowl
+WorkingDirectory=/opt/nightowl-onvif
+ExecStart=/usr/bin/python3 /opt/nightowl-onvif/onvif-supervisor.py
+Restart=always
+RestartSec=5
+TimeoutStopSec=15
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/opt/nightowl-onvif/runtime
+[Install]
+WantedBy=multi-user.target

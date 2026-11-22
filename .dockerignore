@@ -1,0 +1,23 @@
+.git
+node_modules
+__pycache__
+.venv
+venv
+config.yaml
+mediamtx.yml
+mediamtx.yaml
+probe-results.json
+.env
+.env.*
+runtime
+backups
+bin
+*.key
+*.pem
+*.log
+*.zip
+*.tar.gz
+docs/LOCAL-SETUP.md
+
+# Local network settings.
+deployment/network.env

@@ -1,0 +1,20 @@
+[Unit]
+Description=NightOwl local authenticated RTSP router
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=0
+[Service]
+User=nightowl
+Group=nightowl
+WorkingDirectory=/opt/nightowl-onvif
+ExecStart=/usr/local/bin/nightowl-mediamtx /opt/nightowl-onvif/mediamtx.yml
+Restart=always
+RestartSec=5
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/opt/nightowl-onvif/runtime
+[Install]
+WantedBy=multi-user.target

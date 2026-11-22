@@ -1,0 +1,24 @@
+[Unit]
+Description=NightOwl camera %i H.264 main and low stream transcoder
+After=nightowl-mediamtx.service
+Requires=nightowl-mediamtx.service
+StartLimitIntervalSec=0
+[Service]
+User=nightowl
+Group=nightowl
+WorkingDirectory=/opt/nightowl-onvif
+ExecStart=/usr/bin/python3 /opt/nightowl-onvif/transcode.py %i
+Restart=always
+RestartSec=5
+TimeoutStopSec=15
+Nice=5
+CPUWeight=50
+MemoryMax=1G
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/opt/nightowl-onvif/runtime
+[Install]
+WantedBy=multi-user.target

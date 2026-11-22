@@ -1,0 +1,128 @@
+[
+  {
+    "channel": 1,
+    "subtype": 0,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 1,
+    "subtype": 1,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 2,
+    "subtype": 0,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 2,
+    "subtype": 1,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 3,
+    "subtype": 0,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 3,
+    "subtype": 1,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 4,
+    "subtype": 0,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 4,
+    "subtype": 1,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 5,
+    "subtype": 0,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 5,
+    "subtype": 1,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 6,
+    "subtype": 0,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 6,
+    "subtype": 1,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 7,
+    "subtype": 0,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  },
+  {
+    "channel": 7,
+    "subtype": 1,
+    "ok": true,
+    "codec_name": "hevc",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "8/1"
+  }
+]

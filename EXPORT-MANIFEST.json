@@ -1,0 +1,185 @@
+{
+  "description": "Sanitized repository snapshot. Paths are relative to the repository root; hashes describe the published copies.",
+  "files": {
+    ".dockerignore": {
+      "sha256": "5e4475fd8e7196a4095ef04d1a245a5c22a450be0f8518644f3683e9f8795678"
+    },
+    ".gitattributes": {
+      "sha256": "460a09153f8b2d67478e711924890c7f0c67eb4e675e9e99b3213be6df85a818"
+    },
+    ".gitignore": {
+      "sha256": "f75e1025fd58c00c74bcc21e576bfc577e0cc2d552c5b6619e377027afad96d8"
+    },
+    "Dockerfile": {
+      "sha256": "81db4274cf93dc155f3f25c22ce6057e05e2d031574a425e9f64faeb55ef1d6c"
+    },
+    "LICENSE": {
+      "sha256": "aa671e5f220bf7288e5ef20fadcbedf82be8f7914d82fbce1c420b7ef39bb99b"
+    },
+    "README.md": {
+      "sha256": "ae15afd8e081a66fe6853521a8b618385ff442452c3fe1d2ef80b3c202aa8546"
+    },
+    "config.example.yaml": {
+      "sha256": "481a976606208163c9a04178df7792b7f2c98679f6fa741657e16aeacf108787"
+    },
+    "configure-nightowl.py": {
+      "sha256": "88ad45f5cacbf749b30948a1acf4cb352f07347230423841ff5d8889e64a45ee"
+    },
+    "deployment/install-nightowl.sh": {
+      "sha256": "ae6fb7752406448cf05389d80b8af9ae0a4f979f29c5a2af8c62069c51f8ace7"
+    },
+    "deployment/network-service.py": {
+      "sha256": "1224b4c04cf74259b5c2d5c7d97e1bc1afa817d388629b819af4c9c9bdd109da"
+    },
+    "deployment/network.example.env": {
+      "sha256": "a2aac73712ba61805d90ffcb00866f1cb89c9bf2ac9611a7c3795cfe7e51877c"
+    },
+    "deployment/network/20-nightowl-onvif-1.network": {
+      "sha256": "807f3a991e1eaddabccec092af85a5f0c95fc4bdbbd0b9b30b5d6b23ddf8de47"
+    },
+    "deployment/network/20-nightowl-onvif-2.network": {
+      "sha256": "1bc484c80cdbe27c175db606e34cca4c3b14c39b5a98f6bcf5317ca7cff4865b"
+    },
+    "deployment/network/20-nightowl-onvif-3.network": {
+      "sha256": "0f0460cab41e48dd7f9ab5aeb077f0a886f2636905a6ecab34301ca4728e48c0"
+    },
+    "deployment/network/20-nightowl-onvif-4.network": {
+      "sha256": "4bf1c9b3c8ac82a7a31c8639bcdf0f4a25fe0cf7dba392be1b0843bfaed1f0ce"
+    },
+    "deployment/network/20-nightowl-onvif-5.network": {
+      "sha256": "f782574bb6eacbdf332ff90ce8c8586558ceda0c3b6c9439ca8f2c50bf8ffacb"
+    },
+    "deployment/network/20-nightowl-onvif-6.network": {
+      "sha256": "9249b0b19ee120a6c9ba11202fa90aec6eea2cace210ad34ab35faa5bf19e235"
+    },
+    "deployment/network/20-nightowl-onvif-7.network": {
+      "sha256": "d8cbfcef88761a7abc672a943e795eaaaa2f3537dbff10f5bfbae7e59bc5175c"
+    },
+    "deployment/nightowl-mediamtx.service": {
+      "sha256": "afff441e345eff04ad59c0478151d8c8db9c8a81c883030c0cd751b053a229d0"
+    },
+    "deployment/nightowl-onvif-network.service": {
+      "sha256": "12e82bdf3a4a640bd882280881c1ef785e8a55151fa570b73a94c76f3c2e076b"
+    },
+    "deployment/nightowl-onvif.service": {
+      "sha256": "38c5943a3ccbddedfc37b54b761790ce0654f6ac063c09994779df5b5976cffa"
+    },
+    "deployment/nightowl-transcode@.service": {
+      "sha256": "d7ece1f5dc018d4fd85cbbf6861bce37441d350cf5753e52d91a643e2790098d"
+    },
+    "docs/CONFIGURATION.md": {
+      "sha256": "884f8bf8783b3f36c06983e4eba1a483454d90cf6ce8eaaa0766030909296d2e"
+    },
+    "docs/UPSTREAM-README.md": {
+      "sha256": "26f85880d15d87c7769fa8b2aab4c78102c86eabbd6a3bbae1020b095664904b"
+    },
+    "enable-motion-config.py": {
+      "sha256": "ebb3883a0cfce59d53edcbcb08c2744e8e0eff81043276206f71fb599d2b3fe3"
+    },
+    "main.js": {
+      "sha256": "73798209fe1bd7a61b469f87f0a4c6eb86a6c0259b8f1716c6bdbeab45093e12"
+    },
+    "mediamtx.example.yml": {
+      "sha256": "74b4c1e95ce4d793b01b86bc4a0c8aa1603946b741e282e9b665e553b0a829f2"
+    },
+    "motion_detector.py": {
+      "sha256": "b28ee77b577ef5f98194942431ffca9c24fdae3807a8c784fec32eb2300ce5e6"
+    },
+    "onvif-supervisor.py": {
+      "sha256": "a6746d3b045708424f76349e0f427c2a5a5972f227b1537973d7b974dc52c284"
+    },
+    "package-lock.json": {
+      "sha256": "528d32e7f2dd10d5a610d1e0a87ec9e2829de30da26e5e68382f112ed2d492c9"
+    },
+    "package.json": {
+      "sha256": "2ea921caa63c1840da2b751973923f4581097f47802e2f2a80c366f75d92b87a"
+    },
+    "probe-results.example.json": {
+      "sha256": "78ae45de02aab94cb9b740d6567503f8ec054774ab04990575096a55e7293545"
+    },
+    "resources/snapshot.png": {
+      "sha256": "17217ce80d33ba7399121bf45ed65216cf43cded54ead93338210973d7c67031"
+    },
+    "setup-transcoding.py": {
+      "sha256": "b491b957ce86d75bea14743139b42b0a939d7c1f520b7ef904dc08fa7db00816"
+    },
+    "src/config-builder.js": {
+      "sha256": "df680ef23dc90a88b2512392cfcc4ec6d7c093000b8a2cd0043889f60b94daa0"
+    },
+    "src/events-service.js": {
+      "sha256": "0220b0641734b34283fc612744a86b57d209e08f5a59342e6eeb470ed84f6070"
+    },
+    "src/onvif-server.js": {
+      "sha256": "438affc71c1fbcf59d367ad44660343709262cbff0a0001a879bd8a90a69f35c"
+    },
+    "test-events-service.js": {
+      "sha256": "a4f94535f98f9d0d6f0254d6e3d1eefb44b71a55b45966da8e2bb8e168f421fd"
+    },
+    "test_motion_detector.py": {
+      "sha256": "1391aaf4229d69ac034ab4b9ac2981059da5a636a8fe11fa349d2c7a2cc02a78"
+    },
+    "tools/check-endpoints.py": {
+      "sha256": "5beb2bb23e80376cb1863f0dc610ed324c8ef377792c842831dd065a9f7eb9b9"
+    },
+    "tools/check-motion-events.py": {
+      "sha256": "0c0072ec4afb6afa5ad6823f163332e86dfc1ff8d53917c75dea0be2d8460832"
+    },
+    "tools/discover-nightowl.py": {
+      "sha256": "d9e73b2f6519534be48b3dde0284732b6b74c06f13d39b9258f4b496648aba3f"
+    },
+    "transcode.py": {
+      "sha256": "94002121f61391f5ddd1aa9c311c90df8446b2a92ad4619b56e98a9d535dc6ad"
+    },
+    "vendor-schemas.py": {
+      "sha256": "e5695eab95f3b0cb3240ebbc5bbde77dcfe7139dc3418c1283e88885909549f9"
+    },
+    "verify-nightowl.py": {
+      "sha256": "c46b321f8a39ddd5335ec885870b363b02a6ffb6ee0a0e3959e765056090245e"
+    },
+    "wsdl/device_service.wsdl": {
+      "sha256": "f97e7dbee7372e9ddddf3a4e4be92bd77f464e874934eb98b113d65ca7ca73a5"
+    },
+    "wsdl/media_service.wsdl": {
+      "sha256": "5fa89c5486ff4444942a5cf2a3e06f3da739daf87514406d11c9cadb29ba69cc"
+    },
+    "wsdl/vendor/0649bd35de91e559.xsd": {
+      "sha256": "95082958627179a712f7aa4152b8230528d4e4f14e6e8c9ce143705263434adc"
+    },
+    "wsdl/vendor/0b8275e66342e302.xsd": {
+      "sha256": "83380f0555df8515fe58629e5c5119e716b3a5f7cd45be530ef63aa93757de8b"
+    },
+    "wsdl/vendor/19a7ec29c1d4908a.xsd": {
+      "sha256": "c6c05360e1e2a9ba4e57432a368864c29bd50a9318c9fb2a38c8d422e0f7c0bd"
+    },
+    "wsdl/vendor/3da506b51d83d59c.xsd": {
+      "sha256": "af806cc9af2514e9b0b07efe4e4dc42a32dad8ac08473dc025136207779d5ee9"
+    },
+    "wsdl/vendor/4703af0ab8198524.xsd": {
+      "sha256": "4d2a5633336a2d631ca20d7cacf90e28232788ca778a4562ebc20147aea212a7"
+    },
+    "wsdl/vendor/68457875b276bc1d.xsd": {
+      "sha256": "fd37fff721a2fc959715a7bf3a5e09fe4373446aadd01d635e50281881f14833"
+    },
+    "wsdl/vendor/71bc1315b8088bcf": {
+      "sha256": "1025f45fe6549e1281a2e8413c30fd347dcfb0f107b477c6d9f165e05a365ff8"
+    },
+    "wsdl/vendor/d9936438a8c0e9ac.wsdl": {
+      "sha256": "ff34793dd5814f6670b7110a165753d34937b349e859c83a5da1da5cdf4061a2"
+    },
+    "wsdl/vendor/eb291e501bbbc7b5": {
+      "sha256": "dff9100efce4afb21de0cf673fb7fad103672a169862ab0f12e34c312b20e60d"
+    },
+    "wsdl/vendor/ee901f8954955109.wsdl": {
+      "sha256": "8b22214fb2081209837da0c7a995aba1ca1f48f01012091ebd03b192839458b7"
+    },
+    "wsdl/vendor/f7a544302a0ad681": {
+      "sha256": "330ab79ecdd3a8628f12ef4cbe34351e448f9b9231bacad339881ce1a61237a2"
+    },
+    "wsdl/vendor/fa6d2058527da098.xsd": {
+      "sha256": "61960fb3131e38022caad5360e2f33a3382578ab3c80cd58bd74320ede61b20c"
+    },
+    "wsdl/vendor/manifest.json": {
+      "sha256": "223f10376114d012a53eece15c93f3fcb3303936d3174f66cc0c78be60bc98de"
+    }
+  }
+}

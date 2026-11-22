@@ -1,0 +1,32 @@
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Generated configuration contains credentials or local deployment state.
+/config.yaml
+/mediamtx.yml
+/mediamtx.yaml
+/probe-results.json
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+
+# Media, binaries, archives, logs, and operational backups.
+/runtime/
+/backups/
+/bin/
+*.log
+*.tar.gz
+*.zip
+/docs/LOCAL-SETUP.md
+
+# Local network settings.
+deployment/network.env
